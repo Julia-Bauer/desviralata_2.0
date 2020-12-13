@@ -71,7 +71,7 @@ body {
   }
 
   .video-wrapper {
-    max-height: 300px;
+    /*max-height: 300px;*/
     overflow: hidden;
     top: 0;
     left: 0;
@@ -79,7 +79,7 @@ body {
     right: 0;
   }
   .video {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     bottom: 0;
