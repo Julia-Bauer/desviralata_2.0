@@ -12,8 +12,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
-    right: 0;
-    top: 0;
+    top: 10px;
+    width: 100vw;
 }
 
   .nav_top {
@@ -37,7 +37,6 @@ body {
   }
   
   .nav_top a.active {
-    background-color:  rgb(254, 238, 0);
     color: white;
   }
   
