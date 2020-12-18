@@ -131,3 +131,38 @@ label {
 .flex-form > li > label + *{
   flex: 1 0 220px;
 }
+
+/*grid de depoimentos*/
+.depoimentos h2 {
+  margin: 20px;
+}
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+    border: 1px solid #dad4d4;
+    border-radius: 40px;
+    padding: 25px;
+    background: #fcfcfc;
+    box-shadow: 2px 2px 2px 0px rgb(226 221 221 / 75%);
+
+}
+.grid-item.item-baixo {
+  grid-row: span 2;
+}
+.grid-item.item-alto {
+  grid-row: span 3;
+}
+@media screen and (min-width: 768px) {
+  .c-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-auto-rows: 4rem;
+    grid-gap: 1rem;
+  }
+
+  .grid-item {
+    margin: 0;
+  }
+}
