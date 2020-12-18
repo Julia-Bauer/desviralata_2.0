@@ -1,0 +1,37 @@
+.slider-home img {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+
+.tns-item {
+  text-align: center;
+}
+
+@media all and (min-width: 900px) {
+  .slider-home img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .slider-home img {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}
+  
+
+.tns-nav, button {
+  display: none;
+}
+
+.happy-dog {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.happy-dog h2{
+  padding: 10px
+}
