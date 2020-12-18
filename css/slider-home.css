@@ -1,8 +1,50 @@
+/*home main title slide video thinghy*/
+.home-title {
+  position: absolute;
+  top: 90px;
+  padding-left: 30px;
+  color: white;
+}
+
+.home-title h1 {
+  font-size: 2rem;
+}
+
+.home-title p {
+  font-size: 1.2rem;
+}
+
+@media all and (min-width: 600px) {
+  .home-title h1 {
+    font-size: 3rem;
+  }
+  .home-title p {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .home-title h1 {
+    font-size: 4rem;
+  }
+  .home-title p {
+    font-size: 2rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .home-title h1 {
+    font-size: 6rem;
+  }
+}
+
+
+/*Slider*/
+
 .slider-home img {
   max-width: 400px;
   max-height: 300px;
 }
-
 
 .tns-item {
   text-align: center;
@@ -28,10 +70,13 @@
 }
 
 .happy-dog {
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .happy-dog h2{
   padding: 10px
 }
+
+
