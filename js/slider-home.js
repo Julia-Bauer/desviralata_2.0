@@ -20,3 +20,20 @@ var slider = tns({
         }
     }
 });
+
+$(window).on('load', function() {
+
+    $('form').card({
+
+        container:'.agendar',
+        formSelectors: {
+            numberInput:'input[name="number"]',
+            expiryInput:'input[name="expiry"]',
+            cvcInput:'input[name="cvc"]',
+            nameInput:'input[name="first-name"]'
+        },
+
+    });
+
+});
+

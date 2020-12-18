@@ -63,7 +63,7 @@
       <div class='agendar-wrapper'>
         <div class="centered agendar">
           <h2>Agendar</h2>
-          <form>
+          <form action="">
             <ul class="flex-form">
               <li>
                 <label for="nome">Nome</label>
@@ -85,11 +85,25 @@
                 <label for="obs">Observação</label>
                 <textarea rows="6" id="obs" placeholder="Observação"></textarea>
               </li>
-              <input type="text" name="number">
-              <input type="text" name="first-name"/>
-              <input type="text" name="last-name"/>
-              <input type="text" name="expiry"/>
-              <input type="text" name="cvc"/>
+              <li>
+                <h3>Dados do cartão (caso queria doar)</h3>
+              </li>
+              <li>
+                <label for="number">Número</label>
+                <input type="text" name="number">
+              </li>
+              <li>
+                <label for="first-name">Nome</label>
+                <input type="text" name="first-name">
+              </li>
+              <li>
+                <label for="expiry">Expiração</label>
+                <input type="text" name="expiry">
+              </li>
+              <li>
+                <label for="cvc">CVC</label>
+                <input type="text" name="cvc">
+              </li>
               <li>
                 <button type="submit">Enviar</button>
               </li>
